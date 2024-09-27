@@ -9,7 +9,9 @@ This Guide outlines how to set up the Kafka Cluster using Docker Compose.
   - [Start Kafka Cluster](#start-kafka-cluster)
 - [Kafka UI Access](#kafka-ui-access)
 
---- Prerequisities
+--- 
+
+### Prerequisities
 
 Make sure the following requirements are met before proceeding:
 - Docker and Docker Compose installed on your system.
