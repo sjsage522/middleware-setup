@@ -1,0 +1,24 @@
+networks:
+  mysql_network:
+
+volumes:
+  mysql:
+    driver: local
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      TZ: ${TZ}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    networks:
+      - mysql_network
+    volumes:
+      - "mysql:/var/lib/mysql"
+
