@@ -5,8 +5,8 @@ This Guide outlines how to set up the Mysql using Docker Compose.
 ### Table of Contents
 - [Prerequisites](#prerequisities)
 - [Docker Compose Setup](#docker-compose-setup)
-- [Kafka Cluster Setup](#mysql-setup)
-  - [Start Kafka Cluster](#start-mysql)
+- [Mysql Cluster Setup](#mysql-setup)
+  - [Start Mysql Cluster](#start-mysql)
 
 --- 
 
